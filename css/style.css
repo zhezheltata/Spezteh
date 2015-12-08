@@ -1,0 +1,81 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* page-header */
+.page-header {
+	background-color: #ffcd34;
+  	padding: 15px 0;
+  	height: 70px;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;	
+}
+
+.logo_brand {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+
+.page-header_logo {
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.logo {
+  float: left;
+  width: 30%;
+
+}
+
+.logo_img {
+	display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-primary {
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+
+.nav-primary ul {
+  margin: 0;
+}
+
+.nav-primary li {
+	display: inline-block;
+}
+
+.nav-primary a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 45px;	
+  display: inline-block;	
+}
+
+.btn-order {
+  background-color: #ffe184;
+}
+
+.gradient:before {
+content: "";
+display: block;
+position: absolute;
+bottom: 0;
+left: 0;
+height: 14px;
+width: 100%;
+background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 25px 14px;
+}
+
