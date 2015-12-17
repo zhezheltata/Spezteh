@@ -1,16 +1,56 @@
+
+
+body {
+  font-family: "PT Sans", sans-serif;
+
+}
+
 .container {
 	width: 960px;
 	margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 0;
+  }
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000
+
+}
+
+
+h2 {
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #202e3b;
+}
+.main-header span {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+.main-header p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 /* page-header */
 .page-header {
 	background-color: #ffcd34;
   	padding: 15px 0;
-  	height: 70px;
-  	-webkit-box-sizing: border-box;
-  	-moz-box-sizing: border-box;
-  	box-sizing: border-box;	
+    position: relative;
 }
 
 .logo_brand {
@@ -79,3 +119,79 @@ background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd
 background-size: 25px 14px;
 }
 
+
+.promo-block{
+  background-image: url(../img/bg_my_vmeste.jpg);
+  background-size: 100% auto;
+  background-position: 50% 50%;
+  text-align: center;
+  height: 460px;
+  position: relative;
+
+}
+
+.promo-block_title {
+  font-weight: 700;
+  font-size: 44px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+
+}
+.promo-block_slogan {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 30px 120px;
+
+}
+.promo-block_btn {
+  border: 2px solid #ffcd34;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  background-image: url;
+  background-position: 90% 50% ;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.form-order{
+  background-color: #202e3b;
+}
+
+.advantages{
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  vertical-align: middle;
+}
+.advantage-item p{
+  color: #000;
+  font-size: 13px;
+}
+
+.advantage-item{
+  display: inline-block;
+  width: 24.5%;
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+}
+
+.adv1{
+  background-image: url(../img/adv_1.svg);
+}
+.adv2{
+background-image: url(../img/adv_2.svg);
+}
+.adv3{
+  background-image: url(../img/adv_3.svg);
+}
+.adv4{
+  background-image: url(../img/adv_4.svg);
+}
